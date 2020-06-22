@@ -3,6 +3,7 @@ import './Home.css'
 import {Link} from 'react-router-dom';
 import {Jumbotron, Container ,Row,Col,Image,Button} from 'react-bootstrap';
 import Carousel_Hom from './Carousel_Hom.js';
+import FooterPage from './FooterPage.js';
 
 export default class Home extends Component {
     render() {
@@ -38,6 +39,7 @@ export default class Home extends Component {
                         </Link>
                     </Jumbotron>
                     </Container>
+                    <FooterPage/>
             </div>
         )
     }

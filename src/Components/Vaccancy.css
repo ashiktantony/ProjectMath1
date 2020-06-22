@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+   
+  }
+  .current {
+      padding: 40px;
+  }
+  .message {
+      padding: 10px;
+  }

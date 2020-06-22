@@ -6,7 +6,7 @@ export default class Carousel_Hom extends Component {
         return (
             <div>
                 <Carousel>
-  <Carousel.Item style={{'height':"400px",'width':"1350px",'padding':"30px"}}>
+  <Carousel.Item style={{'height':"400px",'width':"1250px",'padding':"20px",'paddingLeft':"120px"}}>
     <img style={{'height':"400px"}}
       className="d-block w-100"
       src={require("../assets/math11.jpg")}
@@ -17,10 +17,10 @@ export default class Carousel_Hom extends Component {
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item style={{'height':"400px",'width':"1350px",'padding':"30px"}}>
+  <Carousel.Item style={{'height':"400px",'width':"1250px",'padding':"20px",'paddingLeft':"120px"}}>
     <img style={{'height':"400px"}}
       className="d-block w-100"
-      src={require("../assets/math11.jpg" )}
+      src={require("../assets/math2.jpg" )}
       alt="Third slide"
     />
 
@@ -29,7 +29,7 @@ export default class Carousel_Hom extends Component {
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item style={{'height':"400px",'width':"1350px",'padding':"30px"}}>
+  <Carousel.Item style={{'height':"400px",'width':"1250px",'padding':"20px",'paddingLeft':"120px"}}>
     <img style={{'height':"400px"}}
       className="d-block w-100"
       src={require("../assets/math3.jpg")}
